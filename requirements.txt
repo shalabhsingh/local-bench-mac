@@ -1,0 +1,15 @@
+# ── Serving engines (install separately, not via pip) ──────────────────────
+# vllm-metal:  pip install vllm-metal==0.27.1
+# Ollama:      https://ollama.com  (brew install ollama)
+
+# ── Quantization (optional — only needed to self-produce quant checkpoints) ─
+mlx-lm>=0.22.0          # MLX 4-bit / 8-bit quantization (Mac only)
+autoawq>=0.2.9          # AWQ 4-bit calibrated quantization
+transformers>=4.51.3    # required by autoawq
+
+# ── Quality evaluation ──────────────────────────────────────────────────────
+# No extra packages needed. eval_quality.py uses only the standard library.
+# HumanEval dataset: python fetch_humaneval.py  (downloads from GitHub raw)
+
+# ── All benchmark scripts (bench.py, compare.py, run_benchmark.py) use ──────
+# only the Python standard library — no additional pip installs required.

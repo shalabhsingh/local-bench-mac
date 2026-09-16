@@ -1,0 +1,52 @@
+▗ ▗   ▖ ▖  Claude Code v2.1.273
+           Sonnet 4.6 · Claude Enterprise
+  ▘▘ ▝▝    ~/Desktop/work/coding-agent
+
+▎ Message from Cvent:
+▎ Make sure to follow the Cvent AI Acceptable use Policy: https://wiki.cvent.com/x/aFsYI
+
+⏺ Good — standard Jekyll layout, simple frontmatter. Let me read the full
+  writeup and convert it:
+
+  Read 1 file (ctrl+o to expand)
+  ⎿  Read .gitignore (9 lines)
+  ⎿  Read chat.py (184 lines)
+  ⎿  Read readme.md (144 lines)
+  ⎿  Read ../../../.venv-vllm-metal/lib/python3.12/site-packages/evalplus/provid
+     er/base.py (46 lines)
+  ⎿  Read ../../../.venv-vllm-metal/lib/python3.12/site-packages/evalplus/eval/u
+     tils.py (194 lines)
+
+⏺ Let me check the existing posts format quickly.
+
+  Listed 1 directory (ctrl+o to expand)
+
+⏺ Write(~/Desktop/work/shalabhsingh.github.io/_posts/2026-9-11-Local-Coding-Agen
+       t-Inference-Apple-Silicon.md)
+  ⎿  Wrote 417 lines to ../shalabhsingh.github.io/_posts/2026-9-11-Local-Co
+     ding-Agent-Inference-Apple-Silicon.md
+       1 ---
+       2 layout: post
+       3 title: "Local Coding-Agent Inference on Apple Silicon: What the 
+         Numbers Actually Say"
+       4 ---
+       6 ## Setup
+       7 
+       8 **Hardware:** Apple M4, 24GB unified memory  
+       9 **OS:** macOS (Darwin 25.6.0)  
+      10 **Serving engine:** vllm-metal v0.27.1 (MLX backend)  
+     … +621 lines (ctrl+o to expand)
+
+⏺ Post created at /Users/shalabh/Desktop/work/shalabhsingh.github.io/_posts/2026
+  -9-11-Local-Coding-Agent-Inference-Apple-Silicon.md.
+
+  Changes from writeup.md:
+  - Added Jekyll frontmatter (layout: post, title:)
+  - Removed "Work in progress" banner
+  - Removed the "Implication for the 'what I'd do on real GPU infra' section"
+    subsection (content is already in the dedicated section)
+  - Otherwise identical — all sections, tables, and code blocks preserved as-is
+
+✻ Baked for 5m 20s · done Friday, 8:35 PM
+
+※ recap: Created the Jekyll blog post from writeup.md at shalabhsingh.github.io/_posts/2026-9-11-Local-Coding-Agent-Inference-Apple-Silicon.md. No further tasks are pending unless you want to review or publish it.
